@@ -1,3 +1,8 @@
+.container {
+  margin: 0 auto;
+  width: 1160px;
+}
+
 .hero-section {
   display: flex;
   padding: 0px 140px 90px 140px;
@@ -5,9 +10,15 @@
   /* background: #fff; */
 }
 
-.container {
-  margin: 0 auto;
-  width: 1160px;
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-overview {
@@ -44,8 +55,6 @@
 
 .hero-button {
   color: #fff;
-
-  /* Button text */
   font-family: Josefin Sans;
   font-size: 18px;
   font-style: normal;
@@ -63,13 +72,13 @@
 }
 
 .img-container {
-    display: flex;
-    justify-content: end;
-    background-image: url(./img/main-img/hero-women.webp);
+  flex: 1;
+  text-align: right;
+  position: relative;
 }
 
-/* .hero-img {
-    position: relative;
-    top: 200px;
-} */
+.hero-img {
+  max-width: 100%;
+  height: auto;
+}
 

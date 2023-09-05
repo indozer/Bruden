@@ -9,13 +9,14 @@
 
 @import url('./main-page/hero.css');
 @import url('./main-page/deal.css');
+@import url('./main-page/category.css');
+@import url('./main-page/banner.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
 
