@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100&display=swap');
+
+header {
+    padding: 16px 0px 16px 0px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-icons-list {
+    display: flex;
+    align-items: center;
+}
+
+.header-link-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.icons-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-icons-list {
+    gap: 20px;
+}
+
+.header-link {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.header-link:hover {
+    color: #DE1616;
+}
+
+.icon-0-text {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+.icon-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #DE1616;
+    border-radius: 50%;
+}
+
+.balance {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+}
