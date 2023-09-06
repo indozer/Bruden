@@ -1,0 +1,21 @@
+.news-title {
+  text-align: center;
+}
+
+
+.news-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap; 
+  text-align: center;
+  gap: 40px;
+}
+
+.news-img {
+  width: 320px;
+  height: 230px;
+}
+
+
+
