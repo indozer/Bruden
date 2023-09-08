@@ -1,0 +1,38 @@
+.banner-section {
+  position: relative;
+  margin-top: 90px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 40px;
+  right: 730px;
+  color: #fff;
+  text-align: right;
+  font-family: Cormorant;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+}
+
+.banner-button {
+  position: absolute;
+  color: var(--black, #292a33);
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+  padding: 14px 28px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  right: 735px;
+  top: 600px;
+}

@@ -71,3 +71,13 @@
   padding-top: 20px;
   padding-bottom: 21px;
 }
+
+.border {
+  display: flex;
+  width: 100px;
+  height: 1px;
+  background: #de1616;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}

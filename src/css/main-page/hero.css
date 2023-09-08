@@ -51,6 +51,7 @@
   font-weight: 300;
   line-height: 160%; /* 35.2px */
   letter-spacing: 2.2px;
+  margin-top: 20px;
 }
 
 .hero-button {
@@ -69,6 +70,7 @@
   align-items: center;
   gap: 10px;
   background: var(--black, #292a33);
+  margin-top: 35px;
 }
 
 .img-container {
@@ -82,3 +84,25 @@
   height: auto;
 }
 
+.circle {
+  width: 10px;
+  height: 10px;
+  stroke-width: 1px;
+  stroke: #000;
+}
+
+.fill-circle {
+  width: 10px;
+  height: 10px;
+  fill: #000;
+}
+
+.circles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  right: 30px;
+  bottom: 97px;
+}
