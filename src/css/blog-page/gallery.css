@@ -1,0 +1,46 @@
+.gallery-title {
+    color: #000;
+font-family: 'Cormorant';
+font-size: 28px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.8px;
+text-transform: capitalize;
+text-align: center;
+}
+
+.gallery-img {
+width: 360px;
+height: 360px;
+}
+
+.gallery {
+    padding-top: 90px;
+}
+
+.gallery-posts {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.gallery-button-first-page {
+    color: #FFF;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
+
+.gallery-button-second-page {
+    color: #000;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
