@@ -1,0 +1,331 @@
+.shop {
+    padding: 30px 0px 30px 0px;
+}
+
+.shop-title {
+    margin-bottom: 59px;
+    color: #000;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.aside {
+    width: 260px;
+}
+
+.shop-box {
+    width: 860px;
+}
+
+.filter {
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.filter::after {
+    margin-top: 10px;
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #DE1616;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-text {
+    margin-top: 20px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.shop-icon-list {
+    display: flex;
+    gap: 10px;
+}
+
+.line-elements{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--black, #292A33);
+}
+
+.line-list {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.line-elements2{
+    background-color: var(--black, #292A33);
+    width: 256px;
+    height: 2px;
+}
+
+.filter-btn {
+
+    margin-top: 20px;
+    background-color: transparent;
+    color: var(--black, #292A33);
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border: 1px solid var(--black, #292A33);
+}
+
+.subtitle {
+    margin-top: 30px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.subtitle::after {
+    margin-top: 10px;
+    display: block;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #DE1616;
+}
+
+.shop-button {
+    padding: 7px 14px;
+    background: #D9D9D9;
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+.shop-button-list {
+    margin-top: 15px;
+    display: flex;
+    gap: 7px;
+}
+
+.nav-text {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.default-btn {
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #FFF;
+    border-radius: 0;
+    padding: 10px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.default-arrow {
+    display: block;
+    transform: rotate(90deg);
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.cards-title {
+    text-align: center;
+    margin-top: -86.5px ;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+
+.cards {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.card-list li:hover {
+    box-shadow: 0px 6px 34px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.card-list li{
+    transition: .3s;
+}
+
+.button-slider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+}
+
+.shop-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card-list {
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+
+.card-star{
+    display: block;
+    margin: 10px auto 0px auto;
+}
+
+.cards {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.blog-button-first-page {
+    border: none;
+    border-radius: 0;
+    width: 30px;
+    height: 30px;
+    background: var(--black, #292A33);
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.blog-button-second-page {
+    border: none;
+    border-radius: 0;
+    width: 30px;
+    background-color: transparent;
+    height: 30px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.blog-button-control {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.icon-list {
+    position: relative;
+    bottom: 245px;
+    right: 15px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.icon-fone1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.icon-fone2 {
+    position: relative;
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
+.icon-fone3 {
+    position: relative;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
