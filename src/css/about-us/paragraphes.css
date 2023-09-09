@@ -1,0 +1,30 @@
+.paragraphes-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.paragraph-title {
+  color: #000;
+  font-family: Cormorant;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  letter-spacing: 2.4px;
+  text-transform: capitalize;
+}
+
+.paragraph-overview {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%; 
+  letter-spacing: 0.9px;
+}
+
+.paragraphes-section {
+    margin-bottom: 90px;
+}
