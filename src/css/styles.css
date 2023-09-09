@@ -16,6 +16,27 @@
 @import url('./main-page/popularity.css');
 @import url('./main-page/footer.css');
 @import url('./main-page/promotion.css');
+@import url('./main-page/deal.css');
+
+          /* SHOP-STYLE */
+
+@import url('./shop-page/cart.css');
+@import url('./shop-page/shop.css');
+
+          /* CONTACT-PAGE */
+
+@import url('./contact-page/contact.css');
+
+          /* BLOG-PAGE */
+
+@import url('./blog-page/blog.css');
+@import url('./blog-page/gallery.css');
+@import url('./blog-page/product.css');
+
+          /* ABOUT-PAGE */
+
+@import url('./about-us/about.css');
+@import url('./about-us/paragraphes.css');
 
 
 :root {
