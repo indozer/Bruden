@@ -7,6 +7,8 @@
 @import url('./reset.css');
 /* @import url('./main-page/header.css'); */
 
+          /* MAIN-STYLE */
+
 @import url('./main-page/hero.css');
 @import url('./main-page/deal.css');
 @import url('./main-page/category.css');
@@ -16,6 +18,12 @@
 @import url('./main-page/popularity.css');
 @import url('./main-page/footer.css');
 @import url('./main-page/promotion.css');
+@import url('./main-page/deal.css');
+
+          /* SHOP-STYLE */
+
+
+
 
 
 :root {
