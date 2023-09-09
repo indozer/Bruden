@@ -14,6 +14,8 @@
 @import url('./main-page/header.css');
 @import url('./main-page/news.css');
 @import url('./main-page/popularity.css');
+@import url('./main-page/footer.css');
+@import url('./main-page/promotion.css');
 
 
 :root {
