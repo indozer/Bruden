@@ -7,6 +7,8 @@
 @import url('./reset.css');
 /* @import url('./main-page/header.css'); */
 
+          /* MAIN-STYLE */
+
 @import url('./main-page/hero.css');
 @import url('./main-page/deal.css');
 @import url('./main-page/category.css');
@@ -34,7 +36,6 @@
 @import url('./blog-page/product.css');
 
           /* ABOUT-PAGE */
-
 @import url('./about-us/about.css');
 @import url('./about-us/paragraphes.css');
 
