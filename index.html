@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/Bruden-project/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bruden Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Josefin+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <script type="module" crossorigin src="/Bruden-project/assets/index-fac82e35.js"></script>
+  <link rel="stylesheet" href="/Bruden-project/assets/index-7a14e6e2.css">
+</head>
+<body>
+  
+    <!-- main page -->
+    <header>
+  <nav>
+    <div class="container">
+      <ul class="nav-list">
+        <li>
+            <a href="/"><img src="/Bruden-project/assets/logo-b619d794.jpg" alt="logo" /></a>
+        </li>
+        <li>
+          <ul class="header-link-list">  
+            <li>
+                <a class="header-link" href="/">Home</a>
+            </li>
+            <li>
+                <a class="header-link" href="/partials/shop-page/shop-page.html">Shop</a>
+            </li>
+            <li>
+                <a class="header-link" href="/partials/blog-page/blog-page.html">Blog</a>
+            </li>
+            <li>
+                <a class="header-link" href="/partials/about-page/about-page.html">About Us</a>
+            </li>
+            <li>
+                <a class="header-link" href="/partials/contact-page/contact-page.html">Contact Us</a>
+          </li>
+          </ul>
+        </li>
+        <li>
+          <ul class="header-icons-list"> 
+            <li>
+              <a href="#">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKvSURBVHgB1VW9ctNAEN49BfJTiYEMBJhB6eykQHEauigdpenoME+Q0NHFrmidJ8BvgN/AKmnsKIVjkSaio8gMpsA2hbTsni1HkuWfNjujudPd7re33+7tAdx3weyCZdnmxoY6AUQHkSxWsRZDUJ8IPaCwgYhur3fxc66D/f2D12GETVa0JsbBVBGxTwD9NDZN9Mb6RBREIZWvry8uZxwUCrYFqFoCHhHV/w2jWhB4fVhBtK1SHxCwKk5Gw+ggtlUJvSMBp4iqP3qdT6uCS9QCPhpE54BUFwxN8USmDtAwKnpEaswDKxYPXsmXXItINeTkG1vqZP1BVBuDoTPjAAhs4TybpDEFpbPiXuk3UxjIVyiWbmRt7AAaYodEDc+TqHmOcW4A1hI4JmSTKOB7pa98wgoicLVAk7Nm8r/DY7VQPHT8XvuY1c7TVmjNRiBBEAYZ8DMBZwNv8Dfc7V213/W67WOKwl3e9tipE0eSAE8dUsEiIaiMx7CcTLrve8H6w1BO3keFp2l8WM2BbdumrioCNy8vY77B5c/MJn4lB6ORzglQTl4SpzVhiaQcYMJAaOChr5hnaR9ZQ325CBye5lZergM+bwqIgOo8mJtbRitJgzgkNL5pnWj+vRFZW7TpX3VqXEmWriRd/4cu6ajIEcdMkev7nVr6jLpB5kVw19gyTj5yJFWeBlKWTFmZky/RVaVkIV+meZu6Ku4ftoTT4SB8NK8PFQpvLO3U/x7k79sWKuNGKm9yAe8i4C7oyri5qc5gjgjwPHAt3PQmYG68ZMSTly+eXoahes+l9PbJ4x3Y3n4W3N7++gMriCR9Z+f5F6buMwiVQKex7cyDw92xKTaTuISqZW2bKw/j6gsURuVuN+fBiUXXt2Ec8UaFP5v5XHKZuDgQA6FY3oRV35H7I/8B8CswcnIL2BIAAAAASUVORK5CYII=" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ5SURBVHgB3ZUxb9NAFMffu6vUKDCYFtGqk7ekIIQhSzfCxkZGNtKNLfkGLd+AjmzhE5Bu3XDHSE1wJJq4E2ZKqjSSN1JR3+Nd4jQmidPG6tS/dD7r/O5+787vvQO4L8JFH03TMlIpUQLEPCKZ43Ei9ICCCiLa7faP35AEMl4cBZTZxIibTEQMg4rrNj7BMpBs1jIJ5TeBYIUWNrcqKnGslPRh5cpEoBegtANgahNFUL38E+x6nuPPg6zMeBcCEMEPCItnpyeHUyYeN5vbQWY7V2LbfW6FVFpowO48iPxvF09f7QnE9xpASlluu1GDBepfdGobTzaPCHgO4M762pbf73dqsRB9TIiiOtoNfHRbjWO4hXq97vn6460BO/aW/+HOwwcbX3y/O4jaiMj767D33NP6V1hCZ+36AXf6uIx0+nqdWQhKWdQ9/8TPkERIleF8kIVYCMejObLFJiRiKHu0ziji5kPCfEAMfkECKYl+3LcIhPwRRFqQQCIg4xYQdPQzoEn5WEaEIj/sgZx4CA0TTJeAAiQQqdE8icKOhayuBjpsfY73fCaTK8ES0knMxdLkV6/VmqkQk2TsdruDaFKtPdo86ve75zcCsrkPDBiGPSdx+aLXacbuREsnFZ9phV8NuSKcRTvSlTqb5R0IqIRDPqowjKc0U4UtyzIu/4o9dqs89I7LOQFUAZWNisNUkklKWFwUi5Ow51pHYGhbrtD56Tsm9tLKPuNjINgHmE2uiDwFWEZ11UQhv2vbeaCFN6PW9vNcgQJ4x96a4zGl0EEJh+7PE/vaKV1gY0A3QpZRFMTNabfqL/W4gDuU6zoeqeAN79pRRDbcO/0D66oB6MAq+PgAAAAASUVORK5CYII=" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJjSURBVHgB3VUxb9NQEL57rkoilggkQCy4W+IK4bYLG+4vaNjYyD9ou7HVbLCl/6ArE/kHmLGCpEYicRAD7gRCVDILSIDfce/ZNKmb56Z4qXqS5dPdvfvu3bvvPYDLIjhP0PLyyr0/EjsCoZ0vSwgoRCI/ig4OK4O0WmubHNU1+UmSPx4PnpblsMqcTWd1BxGf5eUEHL2NJJ6TgBdAukKX/d71a7eTo6PP+6Y8xp00m66NwvpUVq0uAtBnNfn5I12K4zCZlUuYQBCtDQ1AEJjaMR6xXe0QoFGriU1TLiMIL/Y0CEAPykRmfkJ0/wekoX8CEigRQvqehWfx5wLhNsVaScmGcrmj48FcjBFEWKjbgAK3bNudWaUaDs7eyeLMbS3lSctZU9Nl8xfyiLWniaeAr9StV0xQdRZxNOovmfIslIEIlG1JImDVJcCAR1bpMddmI5BifwMREpLSK8tTCpKm0CCEWFXLpLPZ1Jl4syZICaFM9aEbr5eZ7VKtqNfFDpNla2KlWO0mX6R2YPNwTMaWqBtFg+25QAq9VlOzl4LY/Th6ExZj9cELi1l/vMOQmb9eZP4pkJaz+pLNbdVrifhw/P5tAGdI8+7KA0zFnqpR3xBRf33abxUqe4woniidD/1+NBzswxzy7euXw5s3bgXczkdcXLN4YZ7kCQpf/dSFOBwevINziIqXBL5OaoE/za1jEMdxN/IJis96H0zyIervQsb8Ru1qdsGeAJEg9KvHBx1ABeEXs5sr3ikQfhfczIA9qCACZJjlI++fbWGqgh4qF6UhVJDFRXj96zeEqazWkYspfwFKy+K/lKxnBQAAAABJRU5ErkJggg==" alt="icon">
+              </a>
+            </li>
+            <li>
+              <a href="/partials/shop-page/cart-page.html">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ2SURBVHgB3VXNbtNAEJ7ZzcHcLPFTbphLSdRDHXgB9w3CG8ATNH0Cwo0bcORE3oDkCTA3kHDjCmo76sU9EdEi5YQihHeY9U9UJ05w2p76SZZ3dsfz7fwa4KYAi0Wr9fg1Sx3emhKQP/utDuLYn8I1oDFnE+gQgZUxo23cknq9B9eAuSeWZZuGYZjQ+Guhog+8ZQJQDJcFwSAMDw9KJBfR2nnykZUcuBriMPAe6kWj+px85tfhc0HiS9gAHIV9fnUUgV/sVZKQoAEm2EUEO/z+1YUNwFF4wVHgHMOg2BNVioakI37pyjJbrfYDqAnbts0izMmf5Ggtie9z6WLmrgLRgZqYJbibL+OTE99fS6JBRK5+65BBTaDC9EIcLffi/koSkDkJQG1PWDu7EJZJKhOvewYSdHLRfMTTgD36X/dbRT5QKbdEvajZbNoWCjHiIxMuAVLUi6LDUtkveYJSvucbaYJ4MbZrjRNOUcIwCrylb5bDlbtMCp9H0WY9sgoVOdHzCi1C2m/u2LV7ZBFcaW4Yjk4rSRBUl0AOhB77JDeorEVD6XBNZ5dcPDs7m4zv3d3iRhIGi/oxc3YXIPsVMGLdrHnF3U+Ps+adaX29rwhf/Tr/8UWfVfZJEPhDnqBPeZl1PUE3PPb2uBD6WuafWl/LQEkvlXmQBsdeGyHpZjJNx6H3trC3uhlTY/PecLa327v8tZMZwXRfyeytp4I+JxJOHqtST60lAan6qRLnRzYEhwctFmMBKp2w0bfRJy3zY+pzZss8QXhTMrOO4/zn5FTnB1E0+bYG5+GzQPUsCEbjQufO7a0hz3WTL2Kx+QnnojcOvHdwI/EPJ13pVaO+xxoAAAAASUVORK5CYII=" alt="icon">
+              </a>
+            </li>
+            <li>
+              <ul class="icons-list">
+                <li>
+                  <div class="icon-0">
+                    <p class="icon-0-text">0</p>
+                </div>
+                </li>
+                <li>
+                  <p class="balance">
+                    $ 0.00
+                  </p>
+                </li>
+              </ul>
+            </li>
+            
+           
+          </ul>
+        </li>
+
+       
+
+
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <section class="hero-section">
+  <div class="container">
+    <div class="content-container">
+      <div class="text-container">
+        <p class="hero-overview">Bags - sunglasses - belts</p>
+        <h1 class="hero-title">
+          Exclusive accessories for connoisseurs of style
+        </h1>
+        <p class="hero-paragraph">
+          Designed in Montreal, Bruden's Backpack embodies luxury fashion while
+          keeping comfort and versatility
+        </p>
+        <div class="circles">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <circle cx="5" cy="5" r="4.5" stroke="black"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <circle cx="5" cy="5" r="5" fill="black"/>
+              </svg>
+        </div>
+        <button class="hero-button" type="button">SHOP NOW</button>
+      </div>
+      <div class="img-container">
+        <img class="hero-img" src="/Bruden-project/assets/hero-women-c036560a.webp" alt="Actor" />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="category-section">
+    <div class="container">
+        <h2 class="category-title">Shop By Category</h2>
+        <div class="border"></div>
+        <div class="category-content">
+            <ul class="category-list">
+                <li class="category-item">
+                    <img class="category-img" src="/Bruden-project/assets/backpack-854375c2.webp" alt="Backpack">
+                    <p class="category-subtitle">Bags</p>
+                </li>
+                <li class="category-item">
+                    <img class="category-img" src="data:image/webp;base64,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" alt="Sunglasses">
+                    <p class="category-subtitle">Sunglasses</p>
+                </li>
+                <li class="category-item"> 
+                    <img class="category-img" src="data:image/webp;base64,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" alt="Belts">
+                    <p class="category-subtitle">Belts</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="buttons-box">
+        <button type="button" class="left-arrowbtn">
+            <img class="left-arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFoSURBVHgB7di/K0VhHMfxN0YZWRRXWRQxGS1S8gfYJLIaTBY/blnIYLXIP6OYlRLl+rEYRJGS39+v43Sex7Gd2z19b99XfZZn+9znnud5+oJzzjnnmkcb5emQbEhGJYeSTwzqkhxLvn6zREGtNF6P5EAyFKzdY0yfpEa2E5p1jKlIbohLrGHMiOSKrIB+2OZ2YkzyQFbiTTKPMZOSR7IS75JZjFkg+fXTEs+SKYxZJv6o7yTDGFMlLqEn1QDGbBGXuCC5O0zZIS5xTnKLm9Eu2ScucSbpxRi9E8ISR5JuGqwej8bOf9ZeMGqPeFdOKGFX6mWb/IlVwSh9CIZlahg8flN/y5i8EFOr5MsMYpS+csMyr5IJjJohKRC+gKcxapxkuJCW+ZAsYpROTG6J/2orGNUvuSQuU8WoCvlx0CZG6dNeX8dhmTkKKmPSeE1yDJ8Ga4Xnvi2UR1/NOvPVUdGu5AnnnHPOuR/fz9B7jxik2WIAAAAASUVORK5CYII=" alt="">
+        </button>
+        <button type="button" class="right-arrowbtn">
+            <img class="right-arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFcSURBVHgB7di/K8RxHMfxpx+DgWIzKCc6BsmqDEYGiz9At8hsEoXvwHCDf8DiH7Ea2GRRxCkZCFFE8uP17au+38/dpO911/t6P+pZ122vvnefPnfgnHPOOZfVqdZVWfVgWEn9/HWuCjRBO/l9ZV6PqAM1iFE7pE8l7oomPZl62KJ2zChGrRGOuVcTGLWsPknHPKlZjFpQL6RjnklON5Nm1BvhR20Jo4qqQjhmE6PiMdeEYyKMKpAcxy0z5oJwzC5G9atTwjH7qg2D+tQh4ZhVcqrHpfG/utV31Xt3GFNQl4RPY091YUh8ta/+spcxZpja43cbY8bVLeGIDYyZVA+EI1YwZl59kA54V4sYUyI5YrPX+DmMiX9YxX9IZH9YTWFMRPh9qKgxjIkIR8RX9yLGRNT+gzKEMSXCEWdqgAarx6WxN/P6RE2rGxqsg/yO1as6IjmxHnHOOeecy+UXhDN6u42jvooAAAAASUVORK5CYII=" alt="">
+        </button>
+    </div>
+</section>
+
+    <section class="banner-section">
+    <div class="container">
+        <img class="banner-img" src="/Bruden-project/assets/banner.img-d66395af.webp" alt="abnner">
+        <h3 class="banner-text">An addition to<br>All your fits</h3>
+        <button class="banner-button" type="button">SHOP NOW</button>
+    </div>
+</section>
+    <section class="deal">
+    <div class="container">
+        <h2 class="deal-title">Deal of the week</h2>
+        <ul class="deal-list">
+            <li class="deal-item">
+                <img src="/Bruden-project/assets/deal-bag-366b8e22.webp" alt="" class="deal-img">
+                <h3 class="deal-subtitle">Fiery Red Bruden Backpack</h3>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAUCAYAAAAJD/ojAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGySURBVHgB7ZU7SxxRFMf/595ZkiWkCIFgEas0SZEiCQkhBBIT0EpB8FXY2IgWFjbaWgkWYuMXsBWfoGCp+A0UG21sFCvx/dq753h3fO04zq7slnN+xdzHOefHcC9zBiiBzOO1TMKiStLsMaWC+ZztyFvbjipJsyfxgGUIhgz1g6hbWiu/7bR7Eg/YfQ7++OEjAT/RkfmKCkm7J/GALUmfH3w9XjC4FxWSdk8hATIb1DPzL7+sEaDWUDh+uYtDcEoGG352wCx7RLTLzi1l2rBSLFNP3BMU4hdwmxkKhn32NwrzY9fwSgQ/wilRwbocZLPjwHkkTT1xT9giss3Ytmfun0CmUBaaoHeuiRrPdx5H1BP33Pdg6sSRfZPvYmAsuRaj5jDXQ79xnJiinogn8pOjOpyQyGpSvXFYoC7/xZRBPUV7MQnhf9Ey0m6Y+DueiXpuiBywb9SGhD7dlu775wCEB/3iMNwypgHPQD0PUESwiBq5suvMWHASDL9sudwK9+eytcxXIz79r1lz72kIXPJF1PO0R2bxITcd1PmboljMV7s52ygzeIsyqEdRFEVRFKVargEaq1OW+eLuagAAAABJRU5ErkJggg==" alt="зірки" class="deal-img">
+                <p class="deal-cash">C$ 99.99</p>
+                <p class="deal-text">Bruden's Backpack will give all your essentials a home while still feeling comfortable and having a... </p>
+                <p class="deal-button">Add to cart</p>
+            </li>
+            <li class="deal-item">
+                <img src="/Bruden-project/assets/deal-bag2-db793743.webp" alt="" class="deal-img">
+                <h3 class="deal-subtitle">Bruden's Backpack</h3>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAAAUCAYAAAAJD/ojAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGySURBVHgB7ZU7SxxRFMf/595ZkiWkCIFgEas0SZEiCQkhBBIT0EpB8FXY2IgWFjbaWgkWYuMXsBWfoGCp+A0UG21sFCvx/dq753h3fO04zq7slnN+xdzHOefHcC9zBiiBzOO1TMKiStLsMaWC+ZztyFvbjipJsyfxgGUIhgz1g6hbWiu/7bR7Eg/YfQ7++OEjAT/RkfmKCkm7J/GALUmfH3w9XjC4FxWSdk8hATIb1DPzL7+sEaDWUDh+uYtDcEoGG352wCx7RLTLzi1l2rBSLFNP3BMU4hdwmxkKhn32NwrzY9fwSgQ/wilRwbocZLPjwHkkTT1xT9giss3Ytmfun0CmUBaaoHeuiRrPdx5H1BP33Pdg6sSRfZPvYmAsuRaj5jDXQ79xnJiinogn8pOjOpyQyGpSvXFYoC7/xZRBPUV7MQnhf9Ey0m6Y+DueiXpuiBywb9SGhD7dlu775wCEB/3iMNwypgHPQD0PUESwiBq5suvMWHASDL9sudwK9+eytcxXIz79r1lz72kIXPJF1PO0R2bxITcd1PmboljMV7s52ygzeIsyqEdRFEVRFKVargEaq1OW+eLuagAAAABJRU5ErkJggg==" alt="зірки" class="deal-stars">
+                <p class="deal-cash">C$ 66.49</p>
+                <p class="deal-text">Bruden's Backpack will give all your essentials a home while still feeling comfortable and having a... </p>
+                <p class="deal-button">Add to cart</p>
+            </li>
+        </ul>
+    </div>
+</section>
+    <section class="news">
+    <div class="container">
+        <h2 class="news-title">
+            Latest news
+        </h2>
+        <div class="border"></div>
+        <ul class="news-list">
+            <li class="news-item">
+                <h3 class="news-sub-list">
+                    April 3 - 2 min read
+                </h3>
+                <img class="news-img" src="/Bruden-project/assets/news-women1-35543dca.webp" alt="women">
+                <h4 class="news-caption">
+                    Bruden Mode Is Taking<br>Care of Women
+                </h4>
+                <p class="news-text">
+                    Bruden Mode in Montreal has 
+                    taken a lot of time and put a 
+                    lot of effort intohelping women not only look great butto be more healthy.
+                </p>
+                <a class="news-link" href="#">Read more</a>
+            </li>
+            <li class="news-item">
+                <h3 class="news-sub-list">
+                    Mar 3 - 2 min read
+                </h3>
+                <img class="news-img" src="/Bruden-project/assets/news-women2-514878ee.webp" alt="">
+                <h4 class="news-caption">
+                    Bruden Mode<br>Accessories
+                </h4>
+                <p class="news-text">
+                    Finding the perfect little thing
+                     that compliments your wardrobe 
+                     can give you the confidence and
+                     the feeling you love to be your best.
+                </p>
+                <a class="news-link" href="#">Read more</a>
+            </li>
+            <li class="news-item">
+                <h3 class="news-sub-list">
+                    Jan 4 - 3 min read
+                </h3>
+                <img class="news-img" src="/Bruden-project/assets/news-women3-9b1f0be5.webp" alt="women">
+                <h4 class="news-caption">
+                    Different Types of<br>Backpacks
+                </h4>
+                <p class="news-text">
+                    Different backpacks do different things and serve various purposes.
+                </p>
+                <a class="news-link down-link" href="#">Read more</a>
+            </li>
+        </ul>
+        <div class="buttons-box">
+            <button type="button" class="left-arrowbtn">
+                <img class="left-arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFoSURBVHgB7di/K0VhHMfxN0YZWRRXWRQxGS1S8gfYJLIaTBY/blnIYLXIP6OYlRLl+rEYRJGS39+v43Sex7Gd2z19b99XfZZn+9znnud5+oJzzjnnmkcb5emQbEhGJYeSTwzqkhxLvn6zREGtNF6P5EAyFKzdY0yfpEa2E5p1jKlIbohLrGHMiOSKrIB+2OZ2YkzyQFbiTTKPMZOSR7IS75JZjFkg+fXTEs+SKYxZJv6o7yTDGFMlLqEn1QDGbBGXuCC5O0zZIS5xTnKLm9Eu2ScucSbpxRi9E8ISR5JuGqwej8bOf9ZeMGqPeFdOKGFX6mWb/IlVwSh9CIZlahg8flN/y5i8EFOr5MsMYpS+csMyr5IJjJohKRC+gKcxapxkuJCW+ZAsYpROTG6J/2orGNUvuSQuU8WoCvlx0CZG6dNeX8dhmTkKKmPSeE1yDJ8Ga4Xnvi2UR1/NOvPVUdGu5AnnnHPOuR/fz9B7jxik2WIAAAAASUVORK5CYII=" alt="arrow">
+            </button>
+            <button type="button" class="right-arrowbtn">
+                <img class="right-arrow" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFcSURBVHgB7di/K8RxHMfxpx+DgWIzKCc6BsmqDEYGiz9At8hsEoXvwHCDf8DiH7Ea2GRRxCkZCFFE8uP17au+38/dpO911/t6P+pZ122vvnefPnfgnHPOOZfVqdZVWfVgWEn9/HWuCjRBO/l9ZV6PqAM1iFE7pE8l7oomPZl62KJ2zChGrRGOuVcTGLWsPknHPKlZjFpQL6RjnklON5Nm1BvhR20Jo4qqQjhmE6PiMdeEYyKMKpAcxy0z5oJwzC5G9atTwjH7qg2D+tQh4ZhVcqrHpfG/utV31Xt3GFNQl4RPY091YUh8ta/+spcxZpja43cbY8bVLeGIDYyZVA+EI1YwZl59kA54V4sYUyI5YrPX+DmMiX9YxX9IZH9YTWFMRPh9qKgxjIkIR8RX9yLGRNT+gzKEMSXCEWdqgAarx6WxN/P6RE2rGxqsg/yO1as6IjmxHnHOOeecy+UXhDN6u42jvooAAAAASUVORK5CYII=" alt="arrow">
+            </button>
+        </div>
+    </div>
+</section>
+
+    <section class="popularity">
+    <div class="container">
+        <ul class="box-list">
+            <li>
+                <div class="popularity">
+                    <div class="popularity-content">
+                        <h2 class="popularity-title">
+                            Fits any style
+                        </h2>
+                        <p class="popularity-text">
+                            Precise fit on sliding<br>buckle with no holes
+                        </p>
+                        <button class="popularity-btn">
+                            SHOP NOW
+                        </button>
+                    </div>
+                    <div class="popularity-image">
+                        <img class="popularity-img" src="/Bruden-project/assets/popularity-belt-05a58829.png" alt="Belt">
+                    </div>
+                </div>
+            </li>
+            <li>
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <section class="promotion">
+    <div class="container">
+        <h2 class="promotion-title">
+            Special products
+        </h2>
+        <p class="promotion-text">
+            Register now to get updates on promotions 
+        </p>
+        <div class="promotion-box">
+            <input class="promotion-input" type="text" name="" id="">
+            <button class="promotion-button" type="button">
+                subscribe
+            </button>
+        </div>
+    </div>
+</section>
+    <footer>
+  <div class="container footer-box">
+    <div class="footer-line">
+      <ul class="footer-list1">
+        <li>
+          <a href="#" class="logo">
+            <img src="/Bruden-project/assets/logo-b619d794.jpg" alt="logo" />
+          </a>
+        </li>
+        <li>
+          <div class="footer-icons-box">
+            <img class="icon-instagram" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAKvSURBVHgB1VW9ctNAEN49BfJTiYEMBJhB6eykQHEauigdpenoME+Q0NHFrmidJ8BvgN/AKmnsKIVjkSaio8gMpsA2hbTsni1HkuWfNjujudPd7re33+7tAdx3weyCZdnmxoY6AUQHkSxWsRZDUJ8IPaCwgYhur3fxc66D/f2D12GETVa0JsbBVBGxTwD9NDZN9Mb6RBREIZWvry8uZxwUCrYFqFoCHhHV/w2jWhB4fVhBtK1SHxCwKk5Gw+ggtlUJvSMBp4iqP3qdT6uCS9QCPhpE54BUFwxN8USmDtAwKnpEaswDKxYPXsmXXItINeTkG1vqZP1BVBuDoTPjAAhs4TybpDEFpbPiXuk3UxjIVyiWbmRt7AAaYodEDc+TqHmOcW4A1hI4JmSTKOB7pa98wgoicLVAk7Nm8r/DY7VQPHT8XvuY1c7TVmjNRiBBEAYZ8DMBZwNv8Dfc7V213/W67WOKwl3e9tipE0eSAE8dUsEiIaiMx7CcTLrve8H6w1BO3keFp2l8WM2BbdumrioCNy8vY77B5c/MJn4lB6ORzglQTl4SpzVhiaQcYMJAaOChr5hnaR9ZQ325CBye5lZergM+bwqIgOo8mJtbRitJgzgkNL5pnWj+vRFZW7TpX3VqXEmWriRd/4cu6ajIEcdMkev7nVr6jLpB5kVw19gyTj5yJFWeBlKWTFmZky/RVaVkIV+meZu6Ku4ftoTT4SB8NK8PFQpvLO3U/x7k79sWKuNGKm9yAe8i4C7oyri5qc5gjgjwPHAt3PQmYG68ZMSTly+eXoahes+l9PbJ4x3Y3n4W3N7++gMriCR9Z+f5F6buMwiVQKex7cyDw92xKTaTuISqZW2bKw/j6gsURuVuN+fBiUXXt2Ec8UaFP5v5XHKZuDgQA6FY3oRV35H7I/8B8CswcnIL2BIAAAAASUVORK5CYII=" alt="icon" />
+            <a class="link-insatgram" href="#"> @brudenmtl </a>
+          </div>
+          <p class="copyright">©2022 by Bruden Mode. Proudly created with</p>
+        </li>
+      </ul>
+    </div>
+    <ul class="footer-list2">
+      <li>
+        <ul class="footer-sublist">
+          <li>
+            <p class="footer-subtitle"> Shop</p>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Bags
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Belts
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Sunglasses
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="footer-sublist">
+          <li>
+            <p class="footer-subtitle">Account</p>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Orders
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Checkout
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              My Account
+            </a>
+          </li>
+          <li>
+          <a href="#" class="footer-sub-link">
+              Account Details
+          </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="footer-sublist">
+          <li>  
+            <p class="footer-subtitle">Information</p>
+          </li>
+          <li>
+            <a href="" class="footer-sub-link">
+              FAQ’s
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+              Privacy Policy
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+                Return policy
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+                Shipping Policy
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer-sub-link">
+                Terms and Conditions
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <ul class="footer-sublist">
+          <li>
+            <p class="footer-subtitle">Contacts</p>
+          </li>
+          <li>
+            <a href="mailto:email@mail.com" class="footer-sub-link">
+              email@mail.com
+            </a>
+          </li>
+          <li>
+            <a href="tel:+10000000000" class="footer-sub-link">
+              +1-000-000-0000
+            </a>
+          </li>
+          <li>
+            <a href="№" class="footer-sub-link">
+              Bld, Street, town, ZIP Code 
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="line"></div>
+  <div class="line2"></div>
+</footer>
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
