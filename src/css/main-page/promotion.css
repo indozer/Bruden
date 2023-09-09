@@ -1,0 +1,70 @@
+.promotion {
+    padding: 90px 0px 90px 0px;
+}
+
+.promotion-title {
+    text-align: center;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.promotion-title::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #DE1616;
+    margin: 10px auto 0px auto;
+}
+
+.promotion-text {
+    text-align: center;
+    margin-top: 50px;
+    color: #000;    
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.promotion-input {
+    width: 560px;
+    border: 1px solid  #292A33;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    outline:  #292A33;
+}
+
+.promotion-button {
+    background: var(--black, #292A33);
+    padding: 14px 28px;
+    border: none;
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}   
+
+.promotion-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
