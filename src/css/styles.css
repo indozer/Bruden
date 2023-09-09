@@ -22,8 +22,23 @@
 
           /* SHOP-STYLE */
 
+@import url('./shop-page/cart.css');
+@import url('./shop-page/shop.css');
 
+          /* CONTACT-PAGE */
 
+@import url('./contact-page/contact.css');
+
+          /* BLOG-PAGE */
+
+@import url('./blog-page/blog.css');
+@import url('./blog-page/gallery.css');
+@import url('./blog-page/product.css');
+
+          /* ABOUT-PAGE */
+
+@import url('./about-page/about.css');
+@import url('./about-page/parapgraphes.css');
 
 
 :root {
