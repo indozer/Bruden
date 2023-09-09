@@ -1,0 +1,164 @@
+.cart {
+    padding: 30px 0px 90px 0px;
+}
+
+.cart-title {
+    color: #000;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.text {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.cart-text {
+    color: #000;
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+}
+
+.card-text2 {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.Quantity {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.input {
+    width: 233px;
+    outline: none;
+    border: 1px solid var(--grey, #7F7F7F);
+}
+
+
+.input-btn {
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+    border-radius: 0;
+    border: none;
+    padding: 8px 14px;
+    background: var(--black, #292A33);
+}
+
+.input-section {
+    display: flex;
+}
+
+.update-btn {
+    border: none;
+    padding: 8px 14px;
+    opacity: 0.5;
+    background: var(--black, #292A33);
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: capitalize;
+}
+
+.cart-subtitle{
+    color: #000;
+    font-family: Cormorant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: capitalize;
+}
+
+.subtotal1 {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.subtotal2 {
+    color: #000;
+    text-align: right;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.total-line2 {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.total2 {
+    color: #000;
+    text-align: right;
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.1px;
+}
+
+.button {
+    border: none;
+    padding: 14px 120px;
+    background: var(--black, #292A33);
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
