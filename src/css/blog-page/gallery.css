@@ -33,6 +33,8 @@ font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
 text-transform: capitalize;
+background-color: #292A33;
+width: 30px;
 }
 
 .gallery-button-second-page {
@@ -43,4 +45,21 @@ font-weight: 300;
 line-height: normal;
 letter-spacing: 0.9px;
 text-transform: capitalize;
+}
+
+.gallery-button-control {
+    color: #000;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+}
+
+.gallery-button-box {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 40px;
 }
