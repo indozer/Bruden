@@ -1,1 +1,116 @@
+.deal {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
 
+.border {
+  display: flex;
+  width: 100px;
+  height: 1px;
+  background: #09ff00;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.deal-title {
+  color: #000;
+  font-family: Cormorant;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.deal-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+}
+.deal-text {
+  border-top: 1px solid var(--grey, #7f7f7f);
+  border-right: 1px solid var(--grey, #7f7f7f);
+  border-bottom: 1px solid var(--grey, #7f7f7f);
+  background: #fff;
+  padding: 25px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-img-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.deal-subtitle {
+  color: #000;
+  text-align: center;
+  font-family: Cormorant;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  margin-bottom: 10px;
+}
+
+.deal-cash {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+
+.deal-img {
+  margin-bottom: 10px;
+}
+
+.deal-description {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0.7px;
+  margin-bottom: 19px;
+}
+
+.deal-button {
+  display: flex;
+  padding: 8px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Josefin Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+  background: var(--black, #292a33);
+  margin-left: 22px;
+}
+
+.left-arrowbtn,
+.right-arrowbtn {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.icons {
+    
+}
