@@ -35,4 +35,10 @@
   gap: 10px;
   right: 735px;
   top: 600px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.banner-button:hover {
+  color: #ffffff;
+  background-color: #000000;
 }

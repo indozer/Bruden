@@ -70,6 +70,14 @@
   gap: 10px;
   background: var(--black, #292a33);
   margin-top: 35px;
+  transition: background 0.3s, color 0.3s;
+  border: solid 1px #000;
+}
+
+.hero-button:hover {
+  color: #000;
+  background-color: #FFF;
+  border: solid 1pt #000;
 }
 
 .img-container {
