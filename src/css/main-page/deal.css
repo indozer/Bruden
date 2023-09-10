@@ -30,6 +30,7 @@
   flex-wrap: nowrap;
   gap: 40px;
 }
+
 .deal-text {
   border-top: 1px solid var(--grey, #7f7f7f);
   border-right: 1px solid var(--grey, #7f7f7f);
