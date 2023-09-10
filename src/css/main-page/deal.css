@@ -1,6 +1,7 @@
 .deal {
   margin-top: 90px;
   margin-bottom: 90px;
+  position: relative;
 }
 
 .border {
@@ -112,6 +113,26 @@
   margin: 10px;
 }
 
-.icons {
-    
+.heart-img {
+  position: absolute;
+  right: 760px;
+  top: 360px;
+}
+
+.eye-img {
+  position: absolute;
+  right: 715px;
+  top: 360px;
+}
+
+.left-heart {
+  position: absolute;
+  top: 360px;
+  left: 1160px;
+}
+
+.left-eye {
+  position: absolute;
+  top: 360px;
+  left: 1205px;
 }
