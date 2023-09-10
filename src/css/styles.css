@@ -44,7 +44,7 @@
 
 @import url('./privacy-polisy/privacy.css'); 
 
-
+@import url('./account-page/account.css'); 
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;

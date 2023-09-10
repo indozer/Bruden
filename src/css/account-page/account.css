@@ -1,0 +1,217 @@
+.account {
+    padding: 30px 0px 90px 0px;
+}
+
+.account-container {
+    display: flex;
+    gap: 40px;
+}
+
+.account-title {
+    margin-bottom: 30px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 4.2px;
+}
+
+.account-text {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.account-text2 {
+    margin-bottom: 10px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.input {
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+    padding: 10px 5px;
+}
+
+.chekbox {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.checkbox-input {
+    width: 10px;
+    height: 10px;
+}
+
+.remember-text {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.log-btn {
+    margin-bottom: 10px;
+    display: block;
+    padding: 14px 25px;
+    background: #292A33;
+    border: 1px solid #292A33;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: background 0.3s, color 0.3s;
+}
+
+.forgot {
+    display: block;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.reg-title {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.email-text {
+    margin-bottom: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+.account-text3 {
+    margin: 10px 0px 10px 0px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+
+.account-disription {
+    margin-bottom: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+}
+
+
+.account-link {
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    text-transform: capitalize;
+    display: block;
+    margin-top: 15px;
+}
+
+.account-subtitle{
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.account-subtitle2 {
+    margin-bottom: 15px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.account-subtitle1 {
+    margin-top: 60px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+}
+
+.account-subtitle2 {
+    margin-top: 60px;
+}
+
+.reg-btm {
+        display: block;
+    padding: 14px 25px;
+    background: #292A33;
+    border: 1px solid #292A33;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    transition: background 0.3s, color 0.3s;
+}
