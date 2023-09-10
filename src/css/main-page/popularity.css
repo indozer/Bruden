@@ -14,7 +14,7 @@
   border: 1px solid #333;
   flex-direction: column;
   justify-content: center; /* Центрируем содержимое вертикально */
-  padding-bottom: 43.4px;
+  padding-bottom: 43px;
 }
 
 .popularity-img {
@@ -74,4 +74,10 @@
   letter-spacing: 2.7px;
   text-transform: uppercase;
   margin-left: 40px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.popularity-btn:hover {
+  color: white;
+  background-color: black;
 }

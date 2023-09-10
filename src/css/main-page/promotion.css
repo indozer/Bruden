@@ -61,10 +61,20 @@
     line-height: normal;
     letter-spacing: 2.7px;
     text-transform: uppercase;
+    border-bottom: solid 1px #000;
+    border-right: solid 1px #000;
+    border-top: solid 1px #000;
+    transition: background 0.3s, color 0.3s;
 }   
 
 .promotion-box {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+.promotion-button:hover {
+    color: black;
+    background-color: white;
+
 }
