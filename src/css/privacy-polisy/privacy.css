@@ -1,0 +1,44 @@
+.privacy-policy {
+    padding: 30px 0px 90px 0px;
+}
+
+.privacy-title {
+    color: #000;
+    text-align: center;
+    font-family: Cormorant;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    margin-bottom: 50px;
+}
+
+.privacy-policy-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.disription {
+    max-width:  860px;
+    color: #000;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 28.8px */
+    letter-spacing: 0.9px;;
+}
+
+.privacy-subtitle {
+    margin: 30px 0px 30px 0px;
+    color: #000;
+    font-family: Cormorant;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.8px;
+    text-transform: capitalize;
+    max-width: 560px;
+}

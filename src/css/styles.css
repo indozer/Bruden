@@ -40,6 +40,11 @@
 @import url('./about-page/about.css');
 @import url('./about-page/paragraphes.css');
 
+          /* PRIVACY-PAGE */
+
+@import url('./privacy-polisy/privacy.css'); 
+
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
