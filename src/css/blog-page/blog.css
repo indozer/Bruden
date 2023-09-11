@@ -72,15 +72,6 @@ margin-left: auto;
     display: flex;
 }
 
-/* .archives-items:nth-child(n + 2)::before {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 1px;
-    background-color: #7F7F7F;
-    margin-top: 15px;
-    margin-bottom: 20px;
-} */ 
 
 .archives-list {
     display: flex;

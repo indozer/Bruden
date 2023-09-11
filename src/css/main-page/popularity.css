@@ -13,7 +13,7 @@
   padding-right: 20px;
   border: 1px solid #333;
   flex-direction: column;
-  justify-content: center; /* Центрируем содержимое вертикально */
+  justify-content: center; 
   padding-bottom: 43px;
 }
 
@@ -29,8 +29,6 @@
 
 .popularity-title {
   color: #000;
-
-  /* H2 */
   font-family: Cormorant;
   font-size: 28px;
   font-style: normal;
@@ -44,13 +42,11 @@
 
 .popularity-text {
   color: #000;
-
-  /* body text 160% */
   font-family: Josefin Sans;
   font-size: 18px;
   font-style: normal;
   font-weight: 300;
-  line-height: 160%; /* 28.8px */
+  line-height: 160%; 
   letter-spacing: 0.9px;
   margin-bottom: 32px;
   margin-top: 10px;
