@@ -71,15 +71,6 @@ margin-top: 15px;
     margin-left: 45px;
     margin-top: 10px;
 }
-/* 
-.products-stars::before {
-    content: '';
-    display: block;
-    background-color: #7F7F7F;
-    width: 180px;
-    height: 1px;
-
-} */
 
 .products-item {
     display: flex;
@@ -106,12 +97,3 @@ margin-top: 15px;
     margin-top: 40px;
     justify-content: center;
 }
-/* 
-.line {
-    display: flex;
-    width: 100px;
-    height: 1px;
-    background: #de1616;
-    margin-bottom: 50px;
-    margin-top: 10px;
-} */

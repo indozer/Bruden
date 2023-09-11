@@ -1,90 +1,202 @@
 <section class="account">
-    <div class="container account-container">
-       <aside class="account-hotbar">
-            <h3 class="account-subtitle">
-                Archive
-            </h3>
-            <a class="account-link" href="/partials/blog-page/blog-page.html">
-                November 2022
-            </a> 
-            <h3 class="account-subtitle1">
-                Categories
-            </h3>
-            <a class="account-link" href="#">
-                General
-            </a>
-            <h3 class="account-subtitle2">
-                Recent Posts
-            </h3>
-            <ul class="recent-posts">
-                <li>
-                    <img class="recent-img" src="/img/contact-img/panelPhoto.jpg" alt="">
-                    <div class="recent-box">
-                        <p class="recent-text">
-                            Bruden Mode ...
-                        </p>
-                        <a class="recent-discription" href="#">
-                            April 3, 2022
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div class="recent-line"></div>
-                </li>
-                <li>
-                    <img class="recent-img" src="/img/contact-img/panelPhoto.jpg" alt="">
-                    <div class="recent-box">
-                        <p class="recent-text">
-                            Bruden Mode ...
-                        </p>
-                        <a class="recent-discription" href="#">
-                            April 3, 2022
-                        </a>
-                    </div>
-                </li>
-            </ul>
-       </aside>
-       <div class="account-section">
-            <h2 class="account-title">
-                My account
-            </h2>
-            <p class="account-text">
-                Login
-            </p>
-            <p class="account-text2">
-                Username or email address 
-            </p>
-            <input class="input" type="text" name="" id="">
-            <p class="account-text2">
-                Password *
-            </p>
-            <input class="input" type="text" name="" id="">
-            <div class="chekbox">
-                <input class="checkbox-input" type="checkbox">
-                <p class="remember-text">remember me</p>
-            </div>
-            <button class="log-btn">
-                Log In
-            </button>
-            <a class="forgot" href="#">
-                Lost your password?
-            </a>
-            <h3 class="reg-title">
-                Register
-            </h3>
-            <p class="email-text">Email address *</p>
-            <input class="input" type="text" name="" id="">
-            <p class="account-text3">
-                A link to set a new password will be sent to your email address.
-            </p>
-            <p class="account-disription">
-                Your personal data will be used to support your experience througho
-                ut this website, to manage access to your account, and for other 
-                purposes described in our privacy policy.
-            </p>
-            <button class="reg-btm">
-                Register
-            </button>
-       </div>
+  <div class="container account-container">
+    <aside class="account-hotbar">
+      <h3 class="account-subtitle">Archive</h3>
+      <a class="account-link" href="/partials/blog-page/blog-page.html">
+        November 2022
+      </a>
+      <h3 class="account-subtitle1">Categories</h3>
+      <a class="account-link" href="#"> General </a>
+      <h3 class="account-subtitle2">Recent Posts</h3>
+      <ul class="recent-posts">
+        <li>
+          <img
+            class="recent-img"
+            src="/img/contact-img/panelPhoto.jpg"
+            alt=""
+          />
+          <div class="recent-box">
+            <p class="recent-text">Bruden Mode ...</p>
+            <a class="recent-discription" href="#"> April 3, 2022 </a>
+          </div>
+        </li>
+        <li>
+          <div class="recent-line"></div>
+        </li>
+        <li>
+          <img
+            class="recent-img"
+            src="/img/contact-img/panelPhoto.jpg"
+            alt=""
+          />
+          <div class="recent-box">
+            <p class="recent-text">Bruden Mode ...</p>
+            <a class="recent-discription" href="#"> April 3, 2022 </a>
+          </div>
+        </li>
+      </ul>
+    </aside>
+    <div class="account-section">
+      <h2 class="account-title">My account</h2>
+      <p class="account-text">Login</p>
+      <p class="account-text2">Username or email address</p>
+      <input class="input" type="text" name="username" id="username" />
+      <p id="username-error" class="error"></p>
+      <div id="username-error" class="error-message">
+        Пожалуйста, введите имя пользователя или адрес электронной почты.
+      </div>
+      <p class="account-text2">Password */p>
+      <input class="input" type="password" name="password" id="password" />
+      <p id="password-error" class="error"></p>
+      <div id="password-error" class="error-message">
+        Пожалуйста, введите пароль.
+      </div>
+      <div class="chekbox">
+        <input class="checkbox-input" type="checkbox" />
+        <p class="remember-text">remember me</p>
+      </div>
+      <button class="log-btn" onclick="return validateForm();">Log In</button>
+      <a class="forgot" href="#"> Lost your password? </a>
+      <h3 class="reg-title">Register</h3>
+      <p class="email-text">Email address *</p>
+      <input class="input" type="text" name="" id="" />
+      <p class="account-text3">
+        A link to set a new password will be sent to your email address.
+      </p>
+      <p class="account-disription">
+        Your personal data will be used to support your experience througho ut
+        this website, to manage access to your account, and for other purposes
+        described in our privacy policy.
+      </p>
+      <button class="reg-btm" onclick="return validateForm();">Register</button>
     </div>
+  </div>
+  <div id="registration-success" class="registration-success">
+    <p>Successfully Registration</p>
+  </div>
+
+  <div id="login-success" class="login-success">
+    <p>Successfully Login</p>
+  </div>
+  <div class="background"></div>
+  </div>
 </section>
+
+<!-- Check Input Script -->
+<script>
+  function validateForm() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+    var usernameError = document.getElementById("username-error");
+    var passwordError = document.getElementById("password-error");
+
+    usernameError.innerHTML = "";
+    usernameError.classList.remove("error");
+    passwordError.innerHTML = "";
+    passwordError.classList.remove("error");
+
+    if (username === "") {
+      usernameError.innerHTML =
+        "Не залишайте поле порожнім.";
+      usernameError.classList.add("error");
+      return false; 
+    }
+
+    if (password === "") {
+      passwordError.innerHTML = "Не залишайте поле порожнім.";
+      passwordError.classList.add("error");
+      return false;
+    }}
+</script>
+
+<!-- Registration Window -->
+<script>
+const registerButton = document.querySelector('.reg-btm');
+
+const registrationSuccess = document.getElementById('registration-success');
+const background = document.querySelector('.background');
+
+registerButton.addEventListener('click', function() {
+    background.style.display = 'block';
+    setTimeout(() => {
+        background.style.opacity = '1';
+    }, 0);
+
+    registrationSuccess.style.display = 'block';
+    setTimeout(() => {
+        registrationSuccess.style.opacity = '1';
+        registrationSuccess.style.transform = 'translate(-50%, -50%) scale(1)';
+    }, 0);
+
+    setTimeout(() => {
+        registrationSuccess.style.opacity = '0';
+        registrationSuccess.style.transform = 'translate(-50%, -50%) scale(0.7)';
+        
+        setTimeout(() => {
+            background.style.opacity = '0';
+            
+            setTimeout(() => {
+                window.location.href = '/'; 
+            }, 300); 
+        }, 300); 
+    }, 1300); 
+});
+
+  </script>
+
+<!-- Login Success Window -->
+<script>
+    const loginButton = document.querySelector('.log-btn');
+    const loginSuccess = document.getElementById('login-success');
+    const usernameInput = document.getElementById('username');
+    const passwordInput = document.getElementById('password');
+  
+    loginButton.addEventListener('click', function () {
+      const username = usernameInput.value.trim();
+      const password = passwordInput.value.trim();
+  
+      if (username.length > 0 && password.length > 0) {
+        showLoginSuccess();
+  
+        const redirectDelay = 3000;
+  
+        setTimeout(() => {
+          window.location.href = '/';
+        }, redirectDelay);
+      }
+    });
+  
+    function showLoginSuccess() {
+      background.style.display = 'block';
+      setTimeout(() => {
+        background.style.opacity = '1';
+      }, 0);
+  
+      loginSuccess.style.display = 'block';
+      setTimeout(() => {
+        loginSuccess.style.opacity = '1';
+        loginSuccess.style.transform = 'translate(-50%, -50%) scale(1)';
+      }, 0);
+  
+      setTimeout(() => {
+        loginSuccess.style.opacity = '0';
+        loginSuccess.style.transform = 'translate(-50%, -50%) scale(0.7)';
+  
+        setTimeout(() => {
+          background.style.opacity = '0';
+  
+          setTimeout(() => {
+            window.location.href = '/';
+          }, 300);
+        }, 300);
+      }, 1300);
+    }
+  </script>
+  
+
+
+
+
+
+
+    

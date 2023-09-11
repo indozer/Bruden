@@ -55,7 +55,7 @@ nav {
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 160%; /* 28.8px */
+    line-height: 160%; 
     letter-spacing: 0.9px;
     text-transform: capitalize;
 }
