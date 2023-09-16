@@ -287,6 +287,18 @@ margin-top: 20px;
     margin-top: 40px;
 }
 
-
+.blog-button-second-page:hover {
+    color: #ffffff;
+font-family: 'Josefin Sans';
+font-size: 18px;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 0.9px;
+text-transform: capitalize;
+background-color: #292A33;
+border: none;
+width: 30px;
+height: 30px;
+}
 
 
