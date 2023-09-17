@@ -40,7 +40,7 @@ header {
   line-height: normal;
   letter-spacing: 0.9px;
   text-transform: capitalize;
-  transition: all ease 0.5s;
+  transition: all ease 1s;
 }
 
 .header-link::after {
@@ -52,7 +52,6 @@ header {
   opacity: 0;
   transform: scale(0);
   transition: transform 0.5s linear;
-  transition: reverse transform 0.5s linear;
 }
 
 .header-link:hover::after {
