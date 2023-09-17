@@ -1,12 +1,11 @@
 .banner-section {
-  position: relative;
   margin-top: 90px;
 }
 
 .banner-text {
   position: absolute;
+  right: 40px;
   top: 40px;
-  right: 730px;
   color: #fff;
   text-align: right;
   font-family: Cormorant;
@@ -33,12 +32,16 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-  right: 735px;
-  top: 600px;
+  right: 40px;
+  bottom: 40px;
   transition: background 0.3s, color 0.3s;
 }
 
 .banner-button:hover {
   color: #ffffff;
   background-color: #000000;
+}
+
+.content-item {
+  position: relative;
 }
