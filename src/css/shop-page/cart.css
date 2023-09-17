@@ -98,6 +98,8 @@
     border: none;
     padding: 8px 14px;
     background: var(--black, #292A33);
+    height: 40px;
+    width: 170px;
 }
 
 .input-section {
@@ -290,7 +292,7 @@
 .line3 {
     height: 50px;
     display: flex;
-    gap: 634px;
+    gap: 430px;
     justify-content: center;
     align-items: center;
 }
