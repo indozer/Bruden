@@ -1,6 +1,9 @@
 .deal {
   margin-top: 90px;
   margin-bottom: 90px;
+}
+
+.deal-item {
   position: relative;
 }
 
@@ -121,24 +124,26 @@
 
 .heart-img {
   position: absolute;
-  right: 760px;
-  top: 360px;
+  top: 265px;
+  right: 80px;
 }
 
 .eye-img {
   position: absolute;
-  right: 715px;
-  top: 360px;
+  top: 265px;
+  right: 30px;
 }
 
 .left-heart {
   position: absolute;
-  top: 360px;
-  left: 1160px;
+  top: 265px;
+  right: 80px;
+
 }
 
 .left-eye {
   position: absolute;
-  top: 360px;
-  left: 1205px;
+  top: 265px;
+  right: 30px;
+
 }
